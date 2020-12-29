@@ -3,7 +3,7 @@
 ## 💻 Enigma CS MU CLUB - Mini Python Project Series 💻
 
 ## Introduction
-'Making Universe' is a simple yet creative game based on mixing and combining elements. 
+'Universe Making' is a simple yet creative game based on mixing and combining elements. 
 Once elements are combined, new ones will be created.
 
 
