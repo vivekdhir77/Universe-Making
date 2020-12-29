@@ -3,16 +3,18 @@
 ## 💻 Enigma CS MU CLUB - Mini Python Project Series 💻
 
 ## Introduction
-
+'Making Universe' is a simple yet creative game based on mixing and combining elements. 
+Once elements are combined, new ones will be created.
 
 
 ## Requirements 
-- Python 3.7
+- Python 3
 
 ##  How to Run 
 - clone the repo
 - Open the file
 - Run the 'Making Universe(Game) .py' file
+- Read the instructions (How to play.)
 - Enter the Item and explore.
 
 ## Tools 
@@ -33,7 +35,8 @@
 - Linkedin : https://www.linkedin.com/in/vivekdhir77/
 - Instagram : https://www.instagram.com/vivekdhir77/
 - Twitter : https://twitter.com/vivekdhir77
-- Email : siddhartha20ucse159@mahindrauniversity.edu.in
+- Email :   vivekdhir77@gamil.com
+            siddhartha20ucse159@mahindrauniversity.edu.in
 
 # Mihir Ranjan
 - linkedin : https://www.linkedin.com/in/mihir-ranjan-328503201/
