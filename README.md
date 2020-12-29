@@ -35,7 +35,7 @@ Once elements are combined, new ones will be created.
 - Linkedin : https://www.linkedin.com/in/vivekdhir77/
 - Instagram : https://www.instagram.com/vivekdhir77/
 - Twitter : https://twitter.com/vivekdhir77
-- Email :   vivekdhir77@gamil.com ,   
+- Email :   vivekdhir77@gmail.com ,   
             siddhartha20ucse159@mahindrauniversity.edu.in
 
 # Mihir Ranjan
