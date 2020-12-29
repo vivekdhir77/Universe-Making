@@ -1,3 +1,21 @@
+print("""     MAKING UNIVERSE  
+'Making Universe' is a simple yet creative game based on mixing and combining elements. 
+Once elements are combined, new ones will be created.
+
+Everything is made from 4 basic elements
+1. Fire, you can refer it as 'f' in the game
+2. Water, you can refer it as 'w' in the game
+3. Air, you can refer it as 'a' in the game
+4. Earth, you can refer it as 'e' in the game
+
+you can combine the above basic elements and make different things
+
+eg:- on adding the elements f and w you get 'steam'.
+Then, you can use steam as an element and use it in combinations to make more elements.
+ 
+EXPLORE!!!! 
+""")
+ 
 fire='f'
 air='a'
 water='w'
@@ -1054,7 +1072,7 @@ rainbow	=[["rain", "sun"], ["rain", "light"]]
 ring	=[["diamond", "metal"] , ["diamond", "gold"]]
 ring[0].sort()
 ring[1].sort()
-river	=[["mountain", "water"] , ["rain", "mountain"]]
+river	=[["mountain", water] , ["rain", "mountain"]]
 river[1].sort()
 river[0].sort()
 robot	=[["metal", "life"] , ["steel", "life"] , ["life", "armor"]]
@@ -1101,7 +1119,7 @@ sea	=[water, water]
 seagull	=[["bird", "sea"], ["bird", "ocean"] , ["beach","bird"]]
 seahorse	=[["horse", "sea"] , ["horse","ocean"], ["fish", "horse"]]
 seal	=["dog", "sea"]
-seaplane	=[["airplane", "water"], ["airplane", "ocean"], ["airplane", "sea"]]
+seaplane	=[["airplane", water], ["airplane", "ocean"], ["airplane", "sea"]]
 seasickness	=[["sea","sickness"] , ["ocean","sickness"]  , ["boat", "sickness"] , ["sickness","steamboat"]  , ["sailboat", "sickness"]]
 seaweed	=[["plant", "sea"], ["ocean","plant"]] 
 sewingmachine	=[["electricity","needle"] , ["needle","robot"]]
@@ -1127,9 +1145,9 @@ snowboard	=[["snow","wood"], ["snow", "surfer"]]
 snowglobe	=[["glass", "snow"],["crystalball","snow"]] 
 snowman	=[["human","snow"], ["snowball", "snowball"] , ["carrot","snow"], ["carrot","snowball"]]
 snowmobile	=[["motorcycle","snow"], ["car","snow"]]
-soapbubble	=[[air, "soap"], ["soap","water"]] 
+soapbubble	=[[air, "soap"], ["soap",water]] 
 soap = ["ash","oil"]
-soda	=[["carbondioxide","water"], ["carbondioxide","juice"]]
+soda	=[["carbondioxide",water], ["carbondioxide","juice"]]
 solarcell	=["sun", "tool"]
 solarsystem	=["planet","sun"]
 sound	=[air, "wave"]
@@ -1144,9 +1162,9 @@ squirrel	=["mouse", "tree"]
 star	=[["night","sky"],["night", "telescope"]]
 starfish	=[["fish", "star"] , ["sea", "star"] , ["ocean", "star"]]
 statue	=[["stone", "tool"], ["human", "medusa"]]
-steak	=[["cow","fire"], ["BBQ","meat"]]
-steam	=[["fire","water"], ["energy","water"]]
-steamboat	=[["steamengine", "water"], ["boat","steam engine"]]
+steak	=[["cow",fire], ["BBQ","meat"]]
+steam	=[[fire,water], ["energy",water]]
+steamboat	=[["steamengine", water], ["boat","steam engine"]]
 steamengine	=[["boiler", "tool"], ["boiler", "wheel"]]
 steel	=["coal","metal"]
 steelwool	=[["steel", "wool"] , ["wire", "wool"]]
@@ -1154,8 +1172,8 @@ stethoscope	=["doctor","tool"]
 stone	=[air, "lava"]
 storm	=[["cloud","energy"] , ["cloud", "electricity"]]
 story	=["campfire","human"]
-sugar	=[["energy","fruit"], ["fire","juice"] , ["energy","juice"]]
-sun	=["fire", "sky"]
+sugar	=[["energy","fruit"], [fire,"juice"] , ["energy","juice"]]
+sun	=[fire, "sky"]
 sundial	=["clock", "sun"]
 sunflower	=[["plant", "sun"],["flower", "sun"]]
 sunglasses	=[["glasses","sun"], ["beach", "glasses"]]
@@ -1164,13 +1182,13 @@ surfer	=["human", "wave"]
 sushi	=[["fish", "seaweed"], ["caviar", "seaweed"]]
 swamp	=[["mud", "plant"], ["grass","mud"]]
 sweater=[["tool","wool"], ["human", "wool"]]
-swimsoggles	=["glasses", "water"]
+swimsoggles	=["glasses", water]
 swimmer	=["human", "swimgoggles"]
 sword	=[["blade", "metal"], ["blade", "steel"]]
 swordfish	=["fish", "sword"]
 tank	=[["armor","car"] , ["car", "gun"]]
 taser	=["electricity","gun"] 
-tea	=["leaf","water"]
+tea	=["leaf",water]
 telescope	=[["glass", "sky"] , ["glass","star"] , ["glass", "space"]]
 time	=["glass","sand"] 
 titanic	=["iceberg","steamboat"]
@@ -1211,13 +1229,13 @@ warrior=["sword", "human"]
 warrior.sort()
 watch=["human", "clock"]
 watch.sort()
-watergun	=["water", "gun"]
+watergun	=[water, "gun"]
 watergun.sort()
-waterpipe	=["water", "pipe"]
+waterpipe	=[water, "pipe"]
 waterpipe.sort()
 waterfall	=["mountain", "river"]
 
-waterwheel	=[["water", "wheel"] , ["wheel", "river"]]
+waterwheel	=[[water, "wheel"] , ["wheel", "river"]]
 waterwheel[1].sort()
 waterwheel[0].sort()
 wave=[["ocean", "wind"] , ["sea", "wind"]]
@@ -2144,7 +2162,7 @@ while var:#Algoritm design by Vivek
             print("village")
         elif(recipe in volcano):
             print("volcano")
-        elif(recipir == vulture):
+        elif(recipe == vulture):
             print("vulture")
         elif(recipe == wall):
             print("wall")
@@ -2174,7 +2192,7 @@ while var:#Algoritm design by Vivek
             print("werewolf")
         elif(recipe in wheat):
             print("wheat")
-        elif(recipr == wheel):
+        elif(recipe == wheel):
             print("wheel")
         elif(recipe == wildanimal):
             print("wildanimal")
@@ -2214,177 +2232,177 @@ while var:#Algoritm design by Vivek
             print("yogurt")
         elif(recipe == zombie):
             print("zombie")
-        elif(recipie == saturn):#
+        elif(recipe == saturn):#
             print("saturn")
-        elif(recipie == scarecrow):
+        elif(recipe == scarecrow):
             print("scarecrow")
-        elif(recipie == scissors):
+        elif(recipe == scissors):
             print("scissos")
-        elif(recipie in scorpion):
+        elif(recipe in scorpion):
             print("scorpion")
-        elif(recipie in scythe):
+        elif(recipe in scythe):
             print("scythe")
-        elif(recipie == sea):
+        elif(recipe == sea):
             print("sea")
-        elif(recipie in seagull):
+        elif(recipe in seagull):
             print("seagull")
-        elif(recipie in seahorse):
+        elif(recipe in seahorse):
             print("seahorse")
-        elif(recipie == seal):
+        elif(recipe == seal):
             print("seal")
-        elif(recipie in seaplane):
+        elif(recipe in seaplane):
             print("seaplane")
-        elif(recipie in seasickness):
+        elif(recipe in seasickness):
             print("seasickness")
-        elif(recipie in seaweed):
+        elif(recipe in seaweed):
             print("seaweed")
-        elif(recipie in sewingmachine):
+        elif(recipe in sewingmachine):
             print("sewingmachine")
-        elif(recipie in shark):
+        elif(recipe in shark):
             print("shark")
-        elif(recipie == sheep):
+        elif(recipe == sheep):
             print("sheep")
-        elif(recipie == sheetmusic):
+        elif(recipe == sheetmusic):
             print("sheetmusic")
-        elif(recipie == shuriken):
+        elif(recipe == shuriken):
             print("shuriken")
-        elif(recipie in sickness):
+        elif(recipe in sickness):
             print("sickness")
-        elif(recipie == skateboard):
+        elif(recipe == skateboard):
             print("skateboard")
-        elif(recipie in skeleton):
+        elif(recipe in skeleton):
             print("skeleton")
-        elif(recipie == skigoggles):
+        elif(recipe == skigoggles):
             print("skigoogles")
-        elif(recipie == sky):
+        elif(recipe == sky):
             print("sky")
-        elif(recipie == skyscraper):
+        elif(recipe == skyscraper):
             print("skyscraper")
-        elif(recipie in sledge):
+        elif(recipe in sledge):
             print("sledge")
-        elif(recipie in smog):
+        elif(recipe in smog):
             print("smog")
-        elif(recipie == smoke):
+        elif(recipe == smoke):
             print("smoke")
-        elif(recipie in smokesignal):
+        elif(recipe in smokesignal):
             print("smokesignal")
-        elif(recipie == smoothie):
+        elif(recipe == smoothie):
             print("smoothie")
-        elif(recipie == snake):
+        elif(recipe == snake):
             print("snake")
-        elif(recipie == snow):
+        elif(recipe == snow):
             print("snow")
-        elif(recipie == snowball):
+        elif(recipe == snowball):
             print("snowball")
-        elif(recipie in snowboard):
+        elif(recipe in snowboard):
             print("snowboard")
-        elif(recipie in snowglobe):
+        elif(recipe in snowglobe):
             print("snowglobe")
-        elif(recipie in snowman):
+        elif(recipe in snowman):
             print("snowman")
-        elif(recipie in snowmobile):
+        elif(recipe in snowmobile):
             print("snowmobile")
-        elif(recipie == soap):
+        elif(recipe == soap):
             print("soap")
-        elif(recipie in soapbubble):
+        elif(recipe in soapbubble):
             print("soapbubble")
-        elif(recipie in soda):
+        elif(recipe in soda):
             print("soda")
-        elif(recipie == solarcell):
+        elif(recipe == solarcell):
             print("solarcell")
-        elif(recipie == solarsystem):
+        elif(recipe == solarsystem):
             print("solarsystem")
-        elif(recipie == sound):
+        elif(recipe == sound):
             print("sound")
-        elif(recipie in space):
+        elif(recipe in space):
             print("space")
-        elif(recipie == spaceship ):
+        elif(recipe == spaceship ):
             print("shaceship")
-        elif(recipie == spacestation):
+        elif(recipe == spacestation):
             print("spacestation")
-        elif(reicpie == spaghetti):
+        elif(recipe == spaghetti):
             print("spaghetti")
-        elif(recipie == sphinx):
+        elif(recipe == sphinx):
             print("sphinx")
-        elif(recipie == spider):
+        elif(recipe == spider):
             print("spider")
-        elif(recipie == sprinkles):
+        elif(recipe == sprinkles):
             print("sprinkles")
-        elif(recipie == squirrel ):
+        elif(recipe == squirrel ):
             print("squirrel")
-        elif(recipie in star):
+        elif(recipe in star):
             print("star")
-        elif(recipie in starfish):
+        elif(recipe in starfish):
             print("starfish")
-        elif(recipie in statue):
+        elif(recipe in statue):
             print("statue")
-        elif(recipie in steak):
+        elif(recipe in steak):
             print("steak")
-        elif(recipie in steam):
+        elif(recipe in steam):
             print("steam")
-        elif(recipie in steamboat):
+        elif(recipe in steamboat):
             print("steamboat")
-        elif(recipie in steamengine):
+        elif(recipe in steamengine):
             print("steamengine")
-        elif(recipie == steel):
+        elif(recipe == steel):
             print("steel")
-        elif(recipie in steelwool):
+        elif(recipe in steelwool):
             print("steelwool")
-        elif(recipie == stethoscope):
+        elif(recipe == stethoscope):
             print("stethoscope")
-        elif(recipie == stone):
+        elif(recipe == stone):
             print("stone")
-        elif(recipie in storm):
+        elif(recipe in storm):
             print("storm")
-        elif(recipie == story):
+        elif(recipe == story):
             print("story")
-        elif(recipie in sugar):
+        elif(recipe in sugar):
             print("sugar")
-        elif(recipie == sun):
+        elif(recipe == sun):
             print("sun")
-        elif(recipie == sundail):
+        elif(recipe == sundail):
             print("sundail")
-        elif(recipie in sunflower):
+        elif(recipe in sunflower):
             print("sunflower")
-        elif(recipie in sunglasses):
+        elif(recipe in sunglasses):
             print("sunglasses")
-        elif(recipie == supernova):
+        elif(recipe == supernova):
             print("supernova")
-        elif(recipie == surface):
+        elif(recipe == surface):
             print("surface")
-        elif(recipie in sushi):
+        elif(recipe in sushi):
             print("sushi")
-        elif(recipie in swamp):
+        elif(recipe in swamp):
             print("swamp")
-        elif(recipie in sweater):
+        elif(recipe in sweater):
             print("sweater")
-        elif(recipie == swimsoggles):
+        elif(recipe == swimsoggles):
             print("swimsoggles")
-        elif(recipie == swimmer):
+        elif(recipe == swimmer):
             print("swimmer")
-        elif(recipie in sword):
+        elif(recipe in sword):
             print("sword")
-        elif(recipie == swordfish):
+        elif(recipe == swordfish):
             print("swordfish")
-        elif(recipie in tank):
+        elif(recipe in tank):
             print("tank")
-        elif(recipie == taser):
+        elif(recipe == taser):
             print("taser")
-        elif(recipie == tea):
+        elif(recipe == tea):
             print("tea")
-        elif(recipie in telescope):
+        elif(recipe in telescope):
             print("telescpoe")
-        elif(recipie == time):
+        elif(recipe == time):
             print("time")
-        elif(recipie == titanic):
+        elif(recipe == titanic):
             print("titanic")
-        elif(recipie in toast):
+        elif(recipe in toast):
             print("toast")
-        elif(recipie == tobacco):
+        elif(recipe == tobacco):
             print("tobacco")
-        elif(recipie == tool):
+        elif(recipe == tool):
             print("tool")
-        elif(recipie == toucan):
+        elif(recipe == toucan):
             print("toucan")#sripradan contribution (end)
         else:
             print("no recipe found")
