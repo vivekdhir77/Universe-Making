@@ -11,10 +11,10 @@ Once elements are combined, new ones will be created.
 - Python 3
 
 ##  How to Run 
-- clone the repo
+- Clone the repo
 - Open the file
 - Run the 'Making Universe(Game) .py' file
-- Read the instructions (How to play.)
+- Read the instructions (How to play).
 - Enter the Item and explore.
 
 ## Tools 
