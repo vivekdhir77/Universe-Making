@@ -13,7 +13,7 @@ you can combine the above basic elements and make different things
 eg:- on adding the elements f and w you get 'steam'.
 Then, you can use steam as an element and use it in combinations to make more elements.
  
-EXPLORE!!!
+EXPLORE!!!!
 """)
  
 fire='f'
