@@ -2360,7 +2360,7 @@ while var:#Algoritm design by Vivek
             print("sugar")
         elif(recipe == sun):
             print("sun")
-        elif(recipe == sundail):
+        elif(recipe == sundial):
             print("sundail")
         elif(recipe in sunflower):
             print("sunflower")
@@ -2368,7 +2368,7 @@ while var:#Algoritm design by Vivek
             print("sunglasses")
         elif(recipe == supernova):
             print("supernova")
-        elif(recipe == surface):
+        elif(recipe == surfer):
             print("surface")
         elif(recipe in sushi):
             print("sushi")
