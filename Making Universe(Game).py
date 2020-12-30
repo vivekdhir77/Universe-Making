@@ -563,7 +563,7 @@ garden[2].sort()
 garden[3].sort()
 gardener=['human', 'garden']
 gardener.sort()
-geyser=['steam','earth']
+geyser=['steam',earth]
 geyser.sort()
 ghost=[['graveyard','night'],['castle', 'night']]
 ghost[0].sort()
