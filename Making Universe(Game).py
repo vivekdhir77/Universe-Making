@@ -14,7 +14,7 @@ eg:- on adding the elements f and w you get 'steam'.
 Then, you can use steam as an element and use it in combinations to make more elements.
  
 EXPLORE!!!
-""")
+""")#introduction/How to Play
  
 fire='f'
 air='a'
