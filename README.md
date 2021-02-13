@@ -23,7 +23,7 @@ Once elements are combined, new ones will be created.
 ## Author
 1. Vivek Dhir
 2. Mihir Ranjan
-3. Sripradan Reddy
+
 
 
 
@@ -44,6 +44,3 @@ Once elements are combined, new ones will be created.
 - Twitter : https://twitter.com/_mihir_ranjan_
 - Email : mihir20uari095@mahindrauniversity.edu.in
 
-# Sripradan Reddy
-- Instagram : https://www.instagram.com/sripradan_reddy/
-- Email : sripradan20uari068@mahindrauniversity.edu.in
